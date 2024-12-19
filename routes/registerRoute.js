@@ -1,6 +1,6 @@
 import express from 'express';
 import multer from 'multer';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import path from 'path';
 import fs from 'fs';
 import db from '../config/db.js'; // Adjust the path as necessary
