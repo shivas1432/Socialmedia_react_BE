@@ -24,11 +24,12 @@ if (!process.env.PORT) {
 // Middleware setup
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:3000', // Your frontend URL
+    origin: process.env.FRONTEND_URL || 'http://localhost:3000', // Use environment variable for the frontend URL
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization', 'Origin'],
     credentials: true // Allow cookies
 }));
+
 
 app.use(cookieParser());
 app.use(helmet());
