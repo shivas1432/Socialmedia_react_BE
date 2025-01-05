@@ -32,11 +32,11 @@ Create a .env file in the root directory and set the required variables:
 
 DB_HOST=127.0.0.1
 DB_USER=root
-DB_PASSWORD=Shivas1432@12
+DB_PASSWORD=*********
 DB_DATABASE=social
 FRONTEND_URL=http://localhost:3000
 
-JWT_SECRET=6ce59dc43eb40c2df7caed9025a4005d7f7fa9a3612e7f942c5a5b71cc16ecd6a0f3129c475e5b5f11e6c90058d4ecb0835a9b139920d9f315d809b6016da1fd
+JWT_SECRET=6ce59dc43eb40c2df7caed9025a4005d7f7fa9a3612e7f942c5a5b71cc16ecd6a0f3129c475e5b5f11e6c90058d4ecb0835a9b139920d9f315d809b601*****
 PORT=8081
 DATABASE_URL=postgresql://shiva:xZFbcX9o73wfY9FxKdndzSccIpz1UHlH@dpg-ctdgg6d6l47c73chns3g-a.oregon-postgres.render.com/shiva_u08h
 Running the Server
