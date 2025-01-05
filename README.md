@@ -57,4 +57,3 @@ The backend uses PostgreSQL for storing data. Ensure that your database is set u
 
 Notes
 The server is configured to work with CORS, ensuring proper communication with the frontend at http://localhost:3000.
-The .env file contains sensitive information, including the JWT secret and database credentials. Keep it secure.
